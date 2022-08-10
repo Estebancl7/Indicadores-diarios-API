@@ -1,0 +1,19 @@
+
+<div class="container text-center">
+    <div class="row pt-5">
+        <h3>Valores a dia de hoy!</h3>
+      <div class="col">
+        <h4> {{indices?.dolar?.nombre}} </h4>
+        <h5>{{ indices?.dolar?.valor| json }} {{ indices?.dolar?.unidad_medida}} </h5>
+      </div>
+      <div class="col">
+        <h4> {{indices?.euro?.nombre}} </h4>
+        <h5> {{ indices?.euro?.valor}} {{ indices?.euro?.unidad_medida}} </h5>
+      </div>
+      <div class="col">
+        <h4> {{indices?.bitcoin?.nombre}} </h4>
+        <h5> {{ indices?.bitcoin?.valor}} {{indices?.bitcoin?.unidad_medida}} </h5>
+      </div>
+    </div>
+  </div>
+
